@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Fill the entire viewport height */
+  background-color: #f5f5f5; /* Light gray background for contrast */
+}
+
+.pill {
+  background-color: #007bff; /* Blue background */
+  padding: 20px 40px;
+  border-radius: 50px; /* Create the pill shape */
+  color: #fff; /* White text for contrast */
+  text-align: center;
+  font-family: sans-serif; /* Improve readability */
+}

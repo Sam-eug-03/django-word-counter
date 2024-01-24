@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Title</title>
+</head>
+<body>
+<h1>Write your text below: </h1>
+<form method="POST" action="counter">
+    {% csrf_token %}
+    <textarea name="words" rows="15" cols="30"></textarea><br>
+    <input type="submit">
+</form>
+</body>
+</html>
