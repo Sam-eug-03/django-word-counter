@@ -1,1 +1,1 @@
-# myproject
+# a django project to count user input words
